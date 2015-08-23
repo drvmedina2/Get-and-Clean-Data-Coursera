@@ -1,14 +1,13 @@
 # Get-and-Clean-Data-Coursera
 
-
-set working directory
+####Because i wasn´t able to push the script to GitHub, i copied and pasted it on plain text, to show my worke done. The terminal on Mac just refused to push the script. Here is my work:
 setwd("~/UCI HAR Dataset 2")
 
-Open packages to work with
+
 library(plyr); library(dplyr)
 
-Read and open data sets in R, assign names to the columns in the appropriate data sets
-caract <- read.table("./features.txt")
+
+caract <- read.table("./features.txt");
 et_activ <- read.table("./activity_labels.txt")
 
 pru_suj <- read.table("./test/subject_test.txt")
